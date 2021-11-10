@@ -15,7 +15,7 @@ begin
 	res_gold = sel ? in2 : in1;
   	if(res_gold != out) begin 
 		$display($time,"Error: in1=%d, in2=%d, esperado %d (%8b), obtenido %d (%8b), sel=%1b", 
-		in1, in2, res_gold, res_gold, out, out, sel); ; 	
+		in1, in2, res_gold, res_gold, out, out, sel);	
 	end	 
  	
 end
