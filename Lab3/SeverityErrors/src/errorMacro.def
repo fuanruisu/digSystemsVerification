@@ -1,0 +1,4 @@
+`define info(msg) $display("Info: %s", msg);
+`define warning(msg) $display("Warning: %s", msg);
+`define error(msg)  $display("Error: %s", msg);
+`define fatal(msg) $display("Fatal: %s", msg);
